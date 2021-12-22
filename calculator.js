@@ -7,26 +7,24 @@ let num2 = prompt("What's 2nd number ");
 let op = prompt("What's op ");
 let res=0;
 
+num1=parseInt(num1);
+num2=parseInt(num2);
 if(op == "+"){
-    num1=parseInt(num1);
-    num2=parseInt(num2);
+    
     res=num1+num2;
     console.log(`result =  ${res}`);
 }
 if(op == "-" ){
-    num1=parseInt(num1);
-    num2=parseInt(num2);
+ 
     res=num1-num2;
     console.log(`result =  ${res}`);
 }
  if(op == "/"){
-    num1=parseInt(num1);
-    num2=parseInt(num2);
+
 res=num1/num2;
 console.log(`result =  ${res}`);
 } if(op == "*"){
-    num1=parseInt(num1);
-    num2=parseInt(num2);
+
     res=num1*num2;
     console.log(`result =  ${res}`);
 
